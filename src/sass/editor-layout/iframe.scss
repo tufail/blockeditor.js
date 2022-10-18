@@ -1,0 +1,13 @@
+.be {
+    &__frm{
+        width: calc(100% - 45px);
+        min-height: calc(100vh - 45px);
+        margin-top: 40px;
+        margin-left: 45px;
+        outline: 0; 
+        border: 0;
+    }
+    &__red {
+        color: red;
+    }
+}

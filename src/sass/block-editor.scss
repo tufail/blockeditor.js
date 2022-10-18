@@ -3,4 +3,6 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins'; 
 @import './typography';
+@import './editor-layout/topbar';
 @import './editor-layout/sidebar';
+@import './editor-layout/iframe';
