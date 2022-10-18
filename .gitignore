@@ -2,3 +2,4 @@ node_modules
 
 dist/blockeditor.js
 dist/blockeditor.css
+dist/blockeditor.js.LICENSE.txt
