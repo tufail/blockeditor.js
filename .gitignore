@@ -1,0 +1,4 @@
+node_modules
+
+dist/blockeditor.js
+dist/blockeditor.css
