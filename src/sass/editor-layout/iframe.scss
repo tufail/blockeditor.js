@@ -1,4 +1,8 @@
 .be {
+    &__page-editor {
+        display: flex;
+        align-items: center;
+    }
     &__frm{
         width: calc(100% - 45px);
         min-height: calc(100vh - 45px);
@@ -6,6 +10,11 @@
         margin-left: 45px;
         outline: 0; 
         border: 0;
+        &--tablet {
+            background-color: $white;
+            margin: 40px auto 0;
+            width: 768px;
+        }
     }
     &__red {
         color: red;
