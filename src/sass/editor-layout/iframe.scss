@@ -10,10 +10,15 @@
         margin-left: 45px;
         outline: 0; 
         border: 0;
-        &--tablet {
-            background-color: $white;
+        &--tablet { 
             margin: 40px auto 0;
             width: 768px;
+            border: 1px solid $gray-300;
+        }
+        &--mobile { 
+            margin: 40px auto 0;
+            width: 400px;
+            border: 1px solid $gray-300;
         }
     }
     &__red {
