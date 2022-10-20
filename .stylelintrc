@@ -1,0 +1,13 @@
+{
+    "severity": "warning", 
+    "rules": {  
+      "block-no-empty": null,
+      "declaration-bang-space-before": null,
+      "declaration-block-trailing-semicolon": "always",  
+      "value-list-comma-newline-after": null,
+      "selector-type-no-unknown": null,
+      "selector-type-case": null , 
+      "plugin/no-low-performance-animation": [true,{"ignore": ["color", "margin","width","background-color","all"]}],     
+      "at-rule-allowed-list": ['extend','keyframes','import','include','font-face','mixin','transition','function','return','if','else','media','page','content']
+    }, 
+  }

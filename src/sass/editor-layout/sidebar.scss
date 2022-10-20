@@ -1,29 +1,29 @@
 .be {
     &__sidebar {
         position: fixed;
-        top:0;
-        right:0;
+        top: 0;
+        right: 0;
         bottom: 0;
         left: 0;
+        z-index: 998; 
         width: 45px;
         height: 100vh;
         padding-top: 40px;
         overflow: auto;
-        background-color: $white;
-        z-index: 998; 
-        box-shadow: 2px 0 3px rgba($gray-600,.6);
         color: $white; 
+        background-color: $white;
+        box-shadow: 2px 0 2px rgba($gray-600,.2);
         &__item {
             display: flex;
             justify-content: center;
             padding: 10px;
             color: $primary;
             cursor: pointer; 
-            border-top: 1px solid $gray-300;
             background-color: transparent;
+            border-top: 1px solid $gray-300;
             transition: all .3s ease;
             &:first-child {
-                color:$secondary;
+                color: $secondary;
                 svg {
                     width: 1.2em;
                 }

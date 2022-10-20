@@ -3,25 +3,25 @@
         display: flex;
         align-items: center;
     }
-    &__frm{
+    &__frm {
         width: calc(100% - 45px);
         min-height: calc(100vh - 45px);
         margin-top: 40px;
         margin-left: 45px;
-        outline: 0; 
         border: 0;
+        outline: 0; 
         &--tablet { 
-            margin: 40px auto 0;
             width: 768px;
+            margin: 40px auto 0;
             border: 1px solid $gray-300;
         }
         &--mobile { 
-            margin: 40px auto 0;
             width: 400px;
+            margin: 40px auto 0;
             border: 1px solid $gray-300;
         }
     }
     &__red {
-        color: red;
+        color: #fff;
     }
 }
